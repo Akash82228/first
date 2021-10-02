@@ -17,6 +17,7 @@ class BinaryTree{
         right = NULL;
         left = NULL;
     }
+    
     ~BinaryTree (){
         delete left;
         delete right;
